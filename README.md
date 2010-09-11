@@ -16,3 +16,4 @@ Aranea is a node.js powered web spider, i made it to learn the ropes. it require
     });
 
     spider.crawl("http://google.com");
+    // ["http://mail.google.com/mail/?hl=en&tab=wm"]
