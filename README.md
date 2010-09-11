@@ -1,6 +1,8 @@
 # WHAT IS IT?
 
-Aranea is a node.js powered web spider, i made it to learn the ropes. it requires 'request' and 'jsdom' and at the moment only pulls back all the links on the first page. Not very useful huh?
+**Noun.** *Aranea* - a genus of orb-weaving spiders including common garden spiders and barn spiders
+
+Aranea is a node.js powered web spider, i made it to learn the ropes. At the moment only pulls back all the links on the first page. Not very useful huh?
 
 # USAGE
 
