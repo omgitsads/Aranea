@@ -9,7 +9,7 @@ Aranea is a node.js powered web spider, i made it to learn the ropes. it require
 
     var spider = new Aranea();
 
-    spider.linkSelector = 'a.gb1'
+    spider.linkSelector = 'a[href^="http://mail."]';
 
     spider.on('pageFinished', function(page){
       sys.puts(JSON.stringify(page.links));
