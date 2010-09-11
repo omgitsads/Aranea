@@ -9,8 +9,10 @@ Aranea is a node.js powered web spider, i made it to learn the ropes. it require
 
     var spider = new Aranea();
 
+    spider.linkSelector = 'a.gb1'
+
     spider.on('pageFinished', function(page){
-      sys.puts(page.links[0]);
-    })
+      sys.puts(JSON.stringify(page.links));
+    });
 
     spider.crawl("http://google.com");
